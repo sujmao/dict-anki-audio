@@ -240,17 +240,23 @@ ac('updateNoteFields', note={'id': nid, 'fields': {'cald3_uk': '[sound:cald3_uk_
 
 逐詞典統計覆蓋率，決定「去留」與「補缺順序」：
 
-| 詞典 | 全量匹配（音頻） | 對 CALD3 缺漏的補充 |
+| 詞典 | 全量匹配（音頻） | 對缺漏的補充 |
 |------|------------------|---------------------|
 | CALD3 英音 | 5879 / 6492（剔除 32 同義詞摺疊後） | — |
-| Macmillan 英音 | 5857 / 6492（90.2%） | **193 / 613**（31.5%） |
+| Macmillan 英音 | 5857 / 6492（90.2%） | 193 / 613（31.5%） |
+| AHD5 美音 | —（僅做缺漏補全） | **405 / 420**（96.4%） |
 
-兩本英音合計覆蓋 **6072 / 6492**，剩 **420** 個單詞（見 `未覆蓋詞彙表`）。
+三本合計覆蓋 **6477 / 6492**（99.8%），僅剩 **15** 個罕見／已廢／拼寫錯誤詞
+（詳見 `releases/美音補缺_覆蓋報告.md`）。
+
+> AHD5 補全的 405 詞中，337 個是直接詞頭命中，68 個是派生詞還原
+> （`un-`／`non-`／`over-`／`self-` 前綴、`-s/-ed/-ing/-ness/-ly/-able` 等
+> 重音中性後綴，還原後必須是詞典精確詞頭）。
 
 **推薦策略**（分里程碑，勿一次全做）：
 
 1. **英音版**：`cald3_uk` 先行（5879 張）。
-2. **英音 + 美音查漏補缺版**：把 613 個缺漏用第二本詞典的美音補上（如 AHD5 US）。
+2. **英音 + 美音查漏補缺版**：劍橋 + 麥克米倫補丁 + **AHD5 美音補全**（405 個，欄位 `ahd5_us`）。
 3. 完全美音版、全部詞典合併版——**暫時擱置**。
 
 ---
@@ -273,6 +279,10 @@ python -I build_full_aac_mono.py
 # 4. 命名 + 寫欄位
 python -I build_naming.py
 python -I set_audio_tags.py
+
+# 5. 美音補全（AHD5）：匹配 → 抽取 → 寫欄位
+python -I match_ahd.py          # 覆蓋率 + 審計報告（ahd_review.md）
+python -I build_ahd_us.py       # 抽取 WAV + 寫 ahd5_us 欄位
 ```
 
 ---
@@ -285,6 +295,8 @@ python -I set_audio_tags.py
 | `build_uk.py` | 詞頭 + 發音提取、摺疊匹配、一詞多音消歧（POS + IPA + 重音） |
 | `detect_synonym.py` | 同義詞摺疊檢測（主詞頭判定 → 剔除清單） |
 | `match_mald.py` | 覆蓋率統計（含拼寫變體歸一化），用於「去留」決策 |
+| `match_ahd.py` | AHD5 美音補缺匹配（後綴/前綴詞頭碰撞消解 + 派生詞還原 + 手工覆寫） |
+| `build_ahd_us.py` | AHD5 美音抽取（PCM WAV 直接複製，不重編碼）＋ 寫 `ahd5_us` 欄位 |
 | `build_mald_uk.py` | Macmillan 英音補充（MP3-in-WAV remux + 義項 POS 消歧） |
 | `build_naming.py` | `{詞典}_{口音}_{單詞}_{第N個音頻}` 命名 |
 | `build_full_aac_mono.py` | `libspeex → AAC mono 64k`（正確解碼） |
