@@ -2,8 +2,8 @@
 """Match the 420 CALD3+Macmillan-uncovered words against AHD5 (US audio).
 
 Read-only. Uses pre-parsed ahd5_entries.json / ahd5_links.json. Writes
-_work/ahd_coverage.json (word -> chosen audio ref + how it was resolved) and
-_work/ahd_review.md (human-auditable report).
+_work/ahd_coverage.json (word -> chosen audio ref + how it was resolved). The
+human-auditable report is written separately by make_ahd_report.py.
 
 Resolution strategy (most -> least trusted):
   0. MANUAL overrides (hand-checked spellings / lemmas).
@@ -20,6 +20,12 @@ Resolution strategy (most -> least trusted):
 Multi-audio entries: AHD5 orders the primary sense first, so we take the FIRST
 distinct audio (verified correct for the two such words: "minutes" -> noun
 "min-it", "finable" -> "fine"=fīn, not the musical "fee-nay").
+
+FINAL POLICY (exact-only): a card's audio must correspond EXACTLY to the card
+word. `hits` keeps EVERY match with its `how` tag (direct/link/derived/manual);
+only `direct` (recording == card word) is used for audio. Downstream scripts
+filter: build_ahd_us.py skips non-direct, make_ahd_report.py splits by `how`,
+revert_ahd_non_exact.py blanks non-direct.
 """
 import re, json, sys
 from collections import defaultdict
@@ -199,9 +205,15 @@ miss.sort()
 covered = sorted(hits)
 n_multi = sum(1 for v in hits.values() if len(v['all']) > 1)
 
+# exact-only split (FINAL POLICY)
+exact = {w: v for w, v in hits.items() if v['how'] == 'direct'}
+removed = {w: v for w, v in hits.items() if v['how'] != 'direct'}
+
 print('uncovered words: %d' % len(uncovered))
-print('AHD5 covers (>=1 audio): %d (%.1f%%)' % (len(hits), 100*len(hits)/len(uncovered)))
-print('AHD5 misses: %d' % len(miss))
+print('AHD5 exact (recording == card word): %d (%.1f%%)' %
+      (len(exact), 100*len(exact)/len(uncovered)))
+print('AHD5 non-exact removed (link+derived+manual): %d' % len(removed))
+print('AHD5 never matched: %d' % len(miss))
 print('multi-distinct-audio entries: %d' % n_multi)
 for w in sorted(k for k, v in hits.items() if len(v['all']) > 1):
     print('   MULTI', w, '->', hits[w]['hw'], hits[w]['all'], 'pick=', hits[w]['audio'])
@@ -211,55 +223,16 @@ print('--- AHD5 misses (%d) ---' % len(miss))
 for w in miss:
     print('   ', w)
 
-# ---- review report (human-auditable) ----
-L = []
-A = L.append
-A('# AHD5 美音補缺覆蓋報告（對 420 個未覆蓋詞）')
-A('')
-A('## 摘要')
-A('')
-A('- 未覆蓋詞（劍橋 + 麥克米倫後）：**420**')
-A('- AHD5 補上美音：**%d**（%.1f%%）' % (len(hits), 100*len(hits)/len(uncovered)))
-A('- AHD5 仍未覆蓋：**%d**' % len(miss))
-A('- 多音頻（取第一個義項）：**%d**' % n_multi)
-A('')
-A('## 1. 直接匹配（direct / manual / link / fold）')
-A('')
-A('| 單詞 | 詞頭 | 方式 | 音頻 |')
-A('|------|------|------|------|')
-for w in covered:
-    v = hits[w]
-    if v['how'] != 'derived':
-        A('| %s | %s | %s | `%s` |' % (w, v['hw'], v['how'], v['audio']))
-A('')
-A('## 2. 派生詞還原（derived）')
-A('')
-A('| 單詞 | 詞頭 | 音頻 |')
-A('|------|------|------|')
-for w in covered:
-    v = hits[w]
-    if v['how'] == 'derived':
-        A('| %s | %s | `%s` |' % (w, v['hw'], v['audio']))
-A('')
-A('## 3. 仍未覆蓋（%d）' % len(miss))
-A('')
-A('| 單詞 |')
-A('|------|')
-for w in miss:
-    A('| %s |' % w)
-A('')
-A('> 這些多為罕見/已廢詞、拼寫錯誤（如 idiosyncracy→idiosyncrasy 已手工改正）、或 AHD5 無音頻條目。')
-md = '\n'.join(L) + '\n'
-open('_work/ahd_review.md', 'w', encoding='utf-8').write(md)
-
 out = {
     'total': len(uncovered),
-    'covered': len(hits),
+    'hits': hits,                        # ALL matches, each with 'how'
+    'exact': len(exact),                 # how == 'direct'
+    'removed_non_exact': len(removed),   # how != 'direct'
     'missed': len(miss),
     'miss_words': miss,
-    'hits': {w: v for w, v in hits.items()},
 }
 json.dump(out, open('_work/ahd_coverage.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=1)
 print()
-print('saved _work/ahd_coverage.json and _work/ahd_review.md')
+print('saved _work/ahd_coverage.json (hits = exact-only)')
+print('saved _work/ahd_review.md (full audit: kept + removed + miss)')

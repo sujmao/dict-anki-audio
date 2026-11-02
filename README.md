@@ -244,20 +244,21 @@ ac('updateNoteFields', note={'id': nid, 'fields': {'cald3_uk': '[sound:cald3_uk_
 |------|------------------|---------------------|
 | CALD3 英音 | 5879 / 6492（剔除 32 同義詞摺疊後） | — |
 | Macmillan 英音 | 5857 / 6492（90.2%） | 193 / 613（31.5%） |
-| AHD5 美音 | —（僅做缺漏補全） | **405 / 420**（96.4%） |
+| AHD5 美音 | —（僅做缺漏補全） | **285 / 420**（67.9% 精確） |
 
-三本合計覆蓋 **6477 / 6492**（99.8%），僅剩 **15** 個罕見／已廢／拼寫錯誤詞
-（詳見 `releases/美音補缺_覆蓋報告.md`）。
+三本合計覆蓋 **6357 / 6492**（97.9%），僅剩 **135** 個
+（= 120 個派生／變體跳過 + 15 個詞典內無此詞／無音頻；詳見 `releases/美音補缺_覆蓋報告.md`）。
 
-> AHD5 補全的 405 詞 = 285 直接詞頭 + 54 `@@@LINK` 跳轉 + 59 派生詞還原
-> + 7 手工覆寫。派生詞還原只允許重音中性前綴／後綴
-> （`un-/non-/over-/self-` 等、`-s/-ed/-ing/-ness/-ly/-able` 等），
+> **精確對應原則**：卡片音頻必須**完全對應**卡片單詞本身。AHD5 命中的 405 詞中，
+> 只有 **285 個直接詞頭**（錄音 = 卡片單詞）保留；其餘 120 個因錄音是詞根／變體
+> 而失真，一律跳過——54 個 `@@@LINK` 派生跳轉 + 59 個前綴／後綴派生還原 + 7 個手工覆寫。
+> 派生詞還原只允許重音中性前綴／後綴（`un-/non-/over-/self-` 等、`-s/-ed/-ing/-ness/-ly/-able` 等），
 > 還原後必須是詞典精確詞頭。
 
 **推薦策略**（分里程碑，勿一次全做）：
 
 1. **英音版**：`cald3_uk` 先行（5879 張）。
-2. **英音 + 美音查漏補缺版**：劍橋 + 麥克米倫補丁 + **AHD5 美音補全**（405 個，欄位 `ahd5_us`）。
+2. **英音 + 美音查漏補缺版**：劍橋 + 麥克米倫補丁 + **AHD5 美音補全**（285 個精確，欄位 `ahd5_us`）。
 3. 完全美音版、全部詞典合併版——**暫時擱置**。
 
 ---
@@ -282,8 +283,9 @@ python -I build_naming.py
 python -I set_audio_tags.py
 
 # 5. 美音補全（AHD5）：匹配 → 抽取 → 寫欄位
-python -I match_ahd.py          # 覆蓋率 + 審計報告（ahd_review.md）
-python -I build_ahd_us.py       # 抽取 WAV + 寫 ahd5_us 欄位
+python -I match_ahd.py          # 匹配 + 覆蓋率（ahd_coverage.json）
+python -I build_ahd_us.py       # 抽取 WAV（僅 direct）+ 寫 ahd5_us 欄位
+python -I make_ahd_report.py    # 精確對應版審計報告（ahd_review.md）
 ```
 
 ---
@@ -296,8 +298,10 @@ python -I build_ahd_us.py       # 抽取 WAV + 寫 ahd5_us 欄位
 | `build_uk.py` | 詞頭 + 發音提取、摺疊匹配、一詞多音消歧（POS + IPA + 重音） |
 | `detect_synonym.py` | 同義詞摺疊檢測（主詞頭判定 → 剔除清單） |
 | `match_mald.py` | 覆蓋率統計（含拼寫變體歸一化），用於「去留」決策 |
-| `match_ahd.py` | AHD5 美音補缺匹配（後綴/前綴詞頭碰撞消解 + 派生詞還原 + 手工覆寫） |
+| `match_ahd.py` | AHD5 美音補缺匹配（後綴/前綴詞頭碰撞消解 + 派生詞還原 + 手工覆寫；僅 `direct` 用於音頻） |
 | `build_ahd_us.py` | AHD5 美音抽取（PCM WAV 直接複製，不重編碼）＋ 寫 `ahd5_us` 欄位 |
+| `revert_ahd_non_exact.py` | 回退非精確匹配（清空 `ahd5_us` 欄位 + 刪除失真音頻） |
+| `make_ahd_report.py` | 生成精確對應版覆蓋報告（精確保留 vs 非精確去除分組） |
 | `build_mald_uk.py` | Macmillan 英音補充（MP3-in-WAV remux + 義項 POS 消歧） |
 | `build_naming.py` | `{詞典}_{口音}_{單詞}_{第N個音頻}` 命名 |
 | `build_full_aac_mono.py` | `libspeex → AAC mono 64k`（正確解碼） |
