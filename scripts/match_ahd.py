@@ -57,11 +57,11 @@ for hw, tgt in links.items():
 HOMOPHONE = {
     'enflame': 'inflame',           # variant spelling, same pronunciation
     'idiosyncracy': 'idiosyncrasy', # variant spelling, same pronunciation
-    'plentitude': 'plenitude',      # variant spelling, same pronunciation
 }
 MANUAL = {
     'spined': 'spine',          # spine+d, NOT spin+ed
     'minutia': 'minutiae',      # singular -> plural (NOT homophone)
+    'plentitude': 'plenitude',  # extra /t/ vs plenitude (NOT homophone)
     'archetypally': 'archetype',      # -ally stress-form not in AHD; closest
     'untamed': 'tame',                # un+tame+d; "tam" (Scottish cap) would shadow
 }

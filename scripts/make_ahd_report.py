@@ -18,11 +18,11 @@ removed_total = len(link) + len(derived) + len(manual)
 homophone_notes = {
     'enflame': '變體拼寫，與 inflame 同音',
     'idiosyncracy': '變體拼寫，與 idiosyncrasy 同音',
-    'plentitude': '變體拼寫，與 plenitude 同音',
 }
 manual_notes = {
     'spined': 'spine+d 非 spin+ed（非同音）',
     'minutia': '單數→複數，尾音不同（非同音）',
+    'plentitude': '多一個 t 音，與 plenitude 非同音',
     'archetypally': '-ally 詞形不在 AHD，取最近（非同音）',
     'untamed': 'un+tame+d 非 tam（非同音）',
 }
