@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """AHD5 US audio gap-fill for the 420 CALD3+Macmillan-uncovered words.
 
-Exact-only: builds audio only for 'direct' matches (recording == card word);
-link/derived/manual tiers are skipped.
+Exact-only: builds audio for 'direct' matches (recording == card word) and
+'homophone' variant spellings (pronounced identically); link/derived/manual
+tiers are skipped.
 
 - Reads _work/ahd_coverage.json (word -> chosen audio ref).
 - Maps words back to the Anki notes whose cald3_uk AND mald2_uk are both empty.
@@ -53,7 +54,7 @@ for ni in infos:
 plan = []   # {word, ref, outfile, nids}
 unmatched_words = []
 for word, v in sorted(hits.items()):
-    if v['how'] != 'direct':
+    if v['how'] not in ('direct', 'homophone'):
         continue   # exact-only: skip link/derived/manual (recording != card word)
     nids = word_to_notes.get(word, [])
     if not nids:

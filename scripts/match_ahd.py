@@ -6,7 +6,8 @@ _work/ahd_coverage.json (word -> chosen audio ref + how it was resolved). The
 human-auditable report is written separately by make_ahd_report.py.
 
 Resolution strategy (most -> least trusted):
-  0. MANUAL overrides (hand-checked spellings / lemmas).
+  0. HOMOPHONE overrides (variant spelling, same pronunciation -> KEPT),
+     then MANUAL overrides (different word -> REMOVED).
   1. direct / variant-normalized headword (exact fold match preferred over
      suffix entries like "-cephalic").
   2. @@@LINK redirects (British spelling -> American headword).
@@ -22,10 +23,11 @@ distinct audio (verified correct for the two such words: "minutes" -> noun
 "min-it", "finable" -> "fine"=fīn, not the musical "fee-nay").
 
 FINAL POLICY (exact-only): a card's audio must correspond EXACTLY to the card
-word. `hits` keeps EVERY match with its `how` tag (direct/link/derived/manual);
-only `direct` (recording == card word) is used for audio. Downstream scripts
-filter: build_ahd_us.py skips non-direct, make_ahd_report.py splits by `how`,
-revert_ahd_non_exact.py blanks non-direct.
+word, OR to a spelling-variant HOMOPHONE pronounced identically (enflame~inflame,
+idiosyncracy~idiosyncrasy, plentitude~plenitude). `hits` keeps EVERY match with
+its `how` tag (direct/homophone/link/derived/manual); only direct+homophone are
+used for audio. Downstream scripts filter: build_ahd_us.py skips the rest,
+make_ahd_report.py splits by `how`, revert_ahd_non_exact.py blanks the rest.
 """
 import re, json, sys
 from collections import defaultdict
@@ -48,13 +50,18 @@ link_norm = defaultdict(list)     # normalize(hw) -> [target, ...]
 for hw, tgt in links.items():
     link_norm[normalize(hw)].append(tgt)
 
-# hand-checked: misspelled deck words -> correct headword; ambiguous lemmas.
+# hand-checked card word -> AHD headword.
+# HOMOPHONE: spelling VARIANT pronounced IDENTICALLY to the card word -> KEPT.
+# MANUAL:    a DIFFERENT word (inflection / sing-plural / derived) whose
+#            recording does NOT say the card word -> REMOVED (exact-only).
+HOMOPHONE = {
+    'enflame': 'inflame',           # variant spelling, same pronunciation
+    'idiosyncracy': 'idiosyncrasy', # variant spelling, same pronunciation
+    'plentitude': 'plenitude',      # variant spelling, same pronunciation
+}
 MANUAL = {
     'spined': 'spine',          # spine+d, NOT spin+ed
-    'enflame': 'inflame',       # variant spelling
-    'minutia': 'minutiae',      # singular -> plural lemma
-    'idiosyncracy': 'idiosyncrasy',   # deck misspelling
-    'plentitude': 'plenitude',        # deck misspelling
+    'minutia': 'minutiae',      # singular -> plural (NOT homophone)
     'archetypally': 'archetype',      # -ally stress-form not in AHD; closest
     'untamed': 'tame',                # un+tame+d; "tam" (Scottish cap) would shadow
 }
@@ -148,7 +155,13 @@ def resolve_derived(word):
 
 
 def resolve(word):
-    # 0. manual override
+    # 0. homophone override (variant spelling, same pronunciation -> KEPT)
+    if word in HOMOPHONE:
+        hw = HOMOPHONE[word]
+        a = audios_of(hw)
+        if a:
+            return hw, a, 'homophone'
+    # 0b. manual override (different word -> REMOVED)
     if word in MANUAL:
         hw = MANUAL[word]
         a = audios_of(hw)
@@ -205,14 +218,15 @@ miss.sort()
 covered = sorted(hits)
 n_multi = sum(1 for v in hits.values() if len(v['all']) > 1)
 
-# exact-only split (FINAL POLICY)
-exact = {w: v for w, v in hits.items() if v['how'] == 'direct'}
-removed = {w: v for w, v in hits.items() if v['how'] != 'direct'}
+# kept vs removed split (FINAL POLICY)
+KEEP = ('direct', 'homophone')
+exact = {w: v for w, v in hits.items() if v['how'] in KEEP}
+removed = {w: v for w, v in hits.items() if v['how'] not in KEEP}
 
 print('uncovered words: %d' % len(uncovered))
-print('AHD5 exact (recording == card word): %d (%.1f%%)' %
+print('AHD5 KEPT (direct + homophone): %d (%.1f%%)' %
       (len(exact), 100*len(exact)/len(uncovered)))
-print('AHD5 non-exact removed (link+derived+manual): %d' % len(removed))
+print('AHD5 removed (link+derived+manual): %d' % len(removed))
 print('AHD5 never matched: %d' % len(miss))
 print('multi-distinct-audio entries: %d' % n_multi)
 for w in sorted(k for k, v in hits.items() if len(v['all']) > 1):
@@ -226,13 +240,13 @@ for w in miss:
 out = {
     'total': len(uncovered),
     'hits': hits,                        # ALL matches, each with 'how'
-    'exact': len(exact),                 # how == 'direct'
-    'removed_non_exact': len(removed),   # how != 'direct'
+    'exact': len(exact),                 # how in (direct, homophone)
+    'removed_non_exact': len(removed),   # how in (link, derived, manual)
     'missed': len(miss),
     'miss_words': miss,
 }
 json.dump(out, open('_work/ahd_coverage.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=1)
 print()
-print('saved _work/ahd_coverage.json (hits = exact-only)')
-print('saved _work/ahd_review.md (full audit: kept + removed + miss)')
+print('saved _work/ahd_coverage.json (%d hits, kept=%d)' % (len(hits), len(exact)))
+print('report: run make_ahd_report.py to write _work/ahd_review.md')

@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Remove AHD5 non-exact matches: keep ONLY 'direct' (recording == card word).
+"""Remove AHD5 non-exact matches: keep 'direct' + 'homophone' only.
 
-The user requires the card's audio to correspond EXACTLY to the card word.
-Non-exact tiers (recording = a related base/variant word) must be removed:
+A card's audio must correspond EXACTLY to the card word, or to a spelling-variant
+HOMOPHONE pronounced identically (enflame~inflame, idiosyncracy~idiosyncrasy,
+plentitude~plenitude). Non-exact tiers (recording = a related DIFFERENT word)
+must be removed:
   - link     (AHD5 @@@LINK derived-form redirects, e.g. anticipatory->anticipate)
   - derived  (my affix-stripping, e.g. blighted->blight)
-  - manual   (hardcoded overrides, e.g. spined->spine)
+  - manual   (hardcoded overrides, e.g. spined->spine, minutia->minutiae)
 Actions: blank the ahd5_us field on those notes + delete their .wav files.
 """
 import os, json, sys
@@ -26,7 +28,7 @@ not_found = []
 for nid, t in tags.items():
     word = t['word']
     how = how_of.get(word)
-    if how == 'direct':
+    if how in ('direct', 'homophone'):
         keep += 1
         continue
     # non-exact -> blank the field
@@ -56,8 +58,8 @@ remaining = sorted(os.listdir('_work/ahd5_us'))
 print('files remaining in _work/ahd5_us/: %d' % len(remaining))
 
 # corrected coverage
-exact_words = [w for w, v in cov['hits'].items() if v['how'] == 'direct']
-non_exact_words = sorted(w for w, v in cov['hits'].items() if v['how'] != 'direct')
+exact_words = [w for w, v in cov['hits'].items() if v['how'] in ('direct', 'homophone')]
+non_exact_words = sorted(w for w, v in cov['hits'].items() if v['how'] not in ('direct', 'homophone'))
 uncovered = sorted(set(cov['miss_words']) | set(non_exact_words))
 print('exact words: %d | non-exact removed: %d | total uncovered now: %d'
       % (len(exact_words), len(non_exact_words), len(uncovered)))
