@@ -1,0 +1,23 @@
+# 詞典文件與音頻（版權 + 體積，不入庫）
+*.mdx
+*.mdd
+*.spx
+*.wav
+*.mp3
+*.m4a
+*.mdd.json
+
+# 工作產物
+_work/
+*.json
+!scripts/**/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系統
+Thumbs.db
+.DS_Store
