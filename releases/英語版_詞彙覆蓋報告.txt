@@ -1,0 +1,621 @@
+英語版詞彙覆蓋報告（卡片來源：2011 版紅寶書，排程保留 S）
+劍橋英音(cald3_uk) 覆蓋 5879
+麥克米倫補丁(mald2_uk) 193
+未覆蓋 420
+
+== 麥克米倫補丁 ==
+abase	v. 降低…的地位，貶抑，使卑下（to lower oneself/sb. in dignity; degrade oneself/sb.）	mald2_uk_abase_1.mp3
+aboveboard	adj./adv. 光明正大的（地）（honest(ly) and open(ly)）	mald2_uk_aboveboard_1.mp3
+acclimate	v. （使）服水土（to adjust to climate）；（使）適應（to adapt）	mald2_uk_acclimate_1.mp3
+acidic	adj. 酸的，酸性的（acid）	mald2_uk_acidic_1.mp3
+affective	adj. 感情的（relating to, arising from, or influencing feelings or emotions），表達感情的（expressing emotion）	mald2_uk_affective_1.mp3
+ague	n. 冷戰，發冷（a fit of shivering）	mald2_uk_ague_1.mp3
+analgesia	n. 無痛覺，痛覺喪失（insensibility to pain without loss of consciousness）	mald2_uk_analgesia_1.mp3
+animus	n. 敵意，憎恨（animosity）	mald2_uk_animus_1.mp3
+applicability	n. 適用性，適應性	mald2_uk_applicability_1.mp3
+aristocracy	n. 貴族（the people of the highest social class especially from noble families）；貴族政府，貴族統治（government in which power is held by the nobility）	mald2_uk_aristocracy_1.mp3
+aspen	n. 白楊	mald2_uk_aspen_1.mp3
+assuming	adj. 傲慢的，自負的（pretentious; presumptuous）	mald2_uk_assuming_1.mp3
+bilk	v. 躲債（to avoid paying money borrowed from others）；騙取（to cheat sb. out of sth.）	mald2_uk_bilk_1.mp3
+bounteous	adj. 慷慨的（giving freely and generously, without restraint）；豐富的（provided in abundance; plentiful）	mald2_uk_bounteous_1.mp3
+bowlegged	adj. 彎腳的，弓形腿的	mald2_uk_bowlegged_1.mp3
+byline	n. （報刊等的文章開頭或結尾）標出作者名字的一行（a line identifying the writer）	mald2_uk_byline_1.mp3
+byproduct	n. 副產品；副作用（side effect）	mald2_uk_byproduct_1.mp3
+calculable	adj. 可計算的（subject to or ascertainable by calculation）；可信賴的（that may be counted on）	mald2_uk_calculable_1.mp3
+careen	v. （船）傾斜（to lean sideways）；使傾斜（to cause a ship to lean）	mald2_uk_careen_1.mp3
+caulk	v. 填塞（縫隙）使不漏水（to stop up the cracks, seams, etc.）	mald2_uk_caulk_1.mp3
+censorious	adj. 挑剔的（marked by or given to censure）	mald2_uk_censorious_1.mp3
+chauvinistic	adj. 沙文主義的，盲目愛國的（excessive or blind patriotism）	mald2_uk_chauvinistic_1.mp3
+choreographic	adj. 舞蹈術的，舞台舞蹈的	mald2_uk_choreographic_1.mp3
+cloudburst	n. 大暴雨（a sudden, very heavy rain）	mald2_uk_cloudburst_1.mp3
+cloy	v. （吃甜食）生膩，吃膩（to surfeit by too much of sth. sweet）	mald2_uk_cloy_1.mp3
+comedienne	n. 喜劇女演員（a woman who is a comedian）；滑稽人物	mald2_uk_comedienne_1.mp3
+comeuppance	n. 應得的懲罰，因果報應（a deserved rebuke or penalty）	mald2_uk_comeuppance_1.mp3
+commonsense	adj. 有常識的（having practical judgment gained from experience of life, not by special study）	mald2_uk_commonsense_1.mp3
+compensatory	adj. 補償性的，報酬的（compensating）	mald2_uk_compensatory_1.mp3
+competing	adj. 有競爭性的（rivalrous）；不相上下的	mald2_uk_competing_1.mp3
+concatenate	v. 連結；連鎖（to link together）	mald2_uk_concatenate_1.mp3
+conjoin	v. 使結合（to cause people or things to join together）	mald2_uk_conjoin_1.mp3
+consequential	adj. 傲慢的，自尊自大的（thinking oneself very important; self-important）	mald2_uk_consequential_1.mp3
+cosmos	n. 宇宙（the universe considered as a harmonious and orderly system）	mald2_uk_cosmos_1.mp3
+credo	n. 信條（creed）	mald2_uk_credo_1.mp3
+cringing	n./adj. 諂媚（的），奉承（的）	mald2_uk_cringing_1.mp3
+deprecatory	adj. 不贊成的，反對的（disapproving）	mald2_uk_deprecatory_1.mp3
+derogate	v. 貶低，誹謗（to lower in esteem; disparage）	mald2_uk_derogate_1.mp3
+determinant	n. 決定因素（sth. that determines or decides how sth. happens） adj. 決定性的（decisive）	mald2_uk_determinant_1.mp3
+disjunction	n. 分離，分裂（a sharp cleavage）	mald2_uk_disjunction_1.mp3
+disport	v. 玩耍，嬉戲（to indulge in amusement）	mald2_uk_disport_1.mp3
+dissimulate	v. 隱藏，掩飾（感情、動機等）（to hide one&#x27;s feelings or motives by pretense; dissemble）	mald2_uk_dissimulate_1.mp3
+drenched	adj. 濕透的（soaked or saturated in liquid）	mald2_uk_drenched_1.mp3
+eaglet	n. 小鷹（a young eagle）	mald2_uk_eaglet_1.mp3
+emote	v. 激動地表達感情（to act in an emotional or theatrical manner）	mald2_uk_emote_1.mp3
+engross	v. 全神貫注於（to occupy completely）	mald2_uk_engross_1.mp3
+ensconce	v. 安置，安坐（to shelter; establish; settle）	mald2_uk_ensconce_1.mp3
+envision	v. 想象，預想（to picture to oneself）	mald2_uk_envision_1.mp3
+evenhanded	adj. 公平的，不偏不倚的（fair and impartial）	mald2_uk_evenhanded_1.mp3
+exactitude	n. 正確，精確，嚴格（over-correctness）	mald2_uk_exactitude_1.mp3
+exiguous	adj. 太少的，不足的（scanty; meager）	mald2_uk_exiguous_1.mp3
+expediency	n. 方便（advantageousness）；權宜之計（a regard for what is politic or advantageous rather than for what is right or just）	mald2_uk_expediency_1.mp3
+fealty	n. 效忠，忠誠（duty and loyalty; allegiance）	mald2_uk_fealty_1.mp3
+fervid	adj. 熾熱的（extremely hot）；熱情的（marked by great passion）	mald2_uk_fervid_1.mp3
+finagle	v. 騙取，騙得（to obtain by trickery）	mald2_uk_finagle_1.mp3
+flimflam	n. 欺騙（deception）；胡言亂語（deceptive nonsense）	mald2_uk_flimflam_1.mp3
+flunk	v. （考試）不及格（to fail in schoolwork）	mald2_uk_flunk_1.mp3
+footle	v. 説胡話，做傻事（to act or talk foolishly）；浪費（時間）（to waste (time)）	mald2_uk_footle_1.mp3
+forested	adj. 樹木叢生的（wooded）	mald2_uk_forested_1.mp3
+gabby	adj. 饒舌的，多嘴的（talkative）	mald2_uk_gabby_1.mp3
+gaff	n. 大魚鈎，魚叉；【海】斜桁	mald2_uk_gaff_1.mp3
+gangling	adj. 瘦長得難看的（tall, thin and awkward-looking）	mald2_uk_gangling_1.mp3
+gist	n. 要點，要旨（the essence or main point）	mald2_uk_gist_1.mp3
+governance	n. 統治，支配（power of government）	mald2_uk_governance_1.mp3
+halcyon	adj. 平靜的（tranquil; calm）；愉快的（happy; idyllic）；繁榮的（prosperous）	mald2_uk_halcyon_1.mp3
+hale	adj. 健壯的，矍鑠的（free from defect, disease, or infirmity sound; healthy）	mald2_uk_hale_1.mp3
+halfhearted	adj. 不認真的，不熱心的（showing little interest, enthusiasm, or heart）	mald2_uk_halfhearted_1.mp3
+hardbitten	adj. 不屈的，頑強的（stubborn; tough; dogged）	mald2_uk_hardbitten_1.mp3
+hardheaded	adj. （尤指做生意時）講究實際的，冷靜的，精明的（shrewd and unsentimental; practical）	mald2_uk_hardheaded_1.mp3
+homogenize	v. 使均勻（to reduce to small particles of uniform size and distribute evenly usually in a liquid）	mald2_uk_homogenize_1.mp3
+hoodoo	n. 厄運；招來不幸的人（sb. that brings bad luck）	mald2_uk_hoodoo_1.mp3
+hot-tempered	adj. 性急的，易怒的，暴躁的（tending to become very angry easily）	mald2_uk_hot_tempered_1.mp3
+huckster	n. 叫賣小販，零售商（a peddler or hawker）	mald2_uk_huckster_1.mp3
+ill-prepared	adj. 準備不足的（not ready for sth.）	mald2_uk_ill_prepared_1.mp3
+immanent	adj. 內在的，固有的（inherent）；普遍存在的，無所不在的（present through the universe）	mald2_uk_immanent_1.mp3
+immure	v. 監禁（to imprison; confine; seclude）	mald2_uk_immure_1.mp3
+impressed	adj. 被打動的，被感動的	mald2_uk_impressed_1.mp3
+incubus	n. 夢魘（a nightmare）；沉重的負擔（an oppressive burden）	mald2_uk_incubus_1.mp3
+indented	adj. 鋸齒狀的；高低不平的	mald2_uk_indented_1.mp3
+ineluctable	adj. 不能逃避的（certain; inevitable）	mald2_uk_ineluctable_1.mp3
+ingratiate	v. 逢迎，討好（to bring oneself into another&#x27;s favor or good graces by conscious effort）	mald2_uk_ingratiate_1.mp3
+ingress	n. 進入（the act of entering）	mald2_uk_ingress_1.mp3
+inroad	n. 襲擊（a hostile invasion）；（以犧牲他者為代價而取得的）進展（advance often at the expense of sb. or sth.）	mald2_uk_inroad_1.mp3
+intermission	n. 暫停，間歇（an interval of time）	mald2_uk_intermission_1.mp3
+jamb	n. 側柱（an upright piece or surface forming the sides of a door, window frame）	mald2_uk_jamb_1.mp3
+jocund	adj. 快樂的，高興的（cheerful; genial; gay）	mald2_uk_jocund_1.mp3
+levelheaded	adj. 頭腦冷靜的，清醒的（self-composed and sensible）	mald2_uk_levelheaded_1.mp3
+locution	n. 語言風格（a particular style of speech）；慣用語	mald2_uk_locution_1.mp3
+meld	v. （使）混合，（使）合併（to blend; mix）	mald2_uk_meld_1.mp3
+metrical	adj. 測量的（metric）；韻律的（written in poetic meter）	mald2_uk_metrical_1.mp3
+minuet	n. 小步舞（a slow, stately dance in 3/4 time characterized by forward balancing, bowing, and toe pointing）	mald2_uk_minuet_1.mp3
+misalliance	n. 不適當的結合（an improper alliance）	mald2_uk_misalliance_1.mp3
+mistral	n. 寒冷且乾燥的強風（a cold, dry wind）	mald2_uk_mistral_1.mp3
+mortify	v. 使丟臉，侮辱（to cause to experience humiliation and chagrin）	mald2_uk_mortify_1.mp3
+multifaceted	adj. 多方面的（having many facets or aspects）	mald2_uk_multifaceted_1.mp3
+mutable	adj. 可變的（capable of change or of being changed）；易變的（capable of or liable to mutation）	mald2_uk_mutable_1.mp3
+mythic	adj. 神話的；虛構的	mald2_uk_mythic_1.mp3
+neonate	n. 新生兒（a new born child）	mald2_uk_neonate_1.mp3
+nonflammable	adj. 不易燃的（not flammable）	mald2_uk_nonflammable_1.mp3
+nostrum	n. 家傳秘萬，江湖藥（quack medicine）；萬靈丹；妙策（a usually questionable remedy or scheme）	mald2_uk_nostrum_1.mp3
+null	adj. 無效的（having no legal or binding force）；等於零的（amounting to nothing）	mald2_uk_null_1.mp3
+numinous	adj. 超自然的，神的（supernatural; divine）	mald2_uk_numinous_1.mp3
+numismatist	n. 錢幣學家，錢幣收藏家（a person who studies or collects coins, tokens, and paper money）	mald2_uk_numismatist_1.mp3
+obligated	adj. 有義務的，有責任的	mald2_uk_obligated_1.mp3
+obloquy	n. 辱罵，斥責（censure or vituperation）	mald2_uk_obloquy_1.mp3
+odoriferous	adj. 有氣味的（giving off an odor）	mald2_uk_odoriferous_1.mp3
+onus	n. 義務，負擔（a difficult or disagreeable responsibility or necessity）	mald2_uk_onus_1.mp3
+optimal	adj. 最佳的，最理想的（most desirable or satisfactory）	mald2_uk_optimal_1.mp3
+orient	adj. 上升的（rising） v. 確定方向（to ascertain the bearings of）；使熟悉情況（to acquaint with a particular situation）	mald2_uk_orient_1.mp3
+ornery	adj. 頑固的，愛爭吵的（having an irritable disposition）	mald2_uk_ornery_1.mp3
+orotund	adj. （聲音）洪亮的（(of sound) strong and deep; resonant）；誇張的（bombastic or pompous）	mald2_uk_orotund_1.mp3
+outfox	v. 以機智勝過（to outwit; outsmart）	mald2_uk_outfox_1.mp3
+outset	n. 開始，開頭（start; beginning）	mald2_uk_outset_1.mp3
+overconfident	adj. 過於自信的，自負的	mald2_uk_overconfident_1.mp3
+overemphasize	v. 過分強調（to give something more importance than it deserves or than is suitable）	mald2_uk_overemphasize_1.mp3
+overreach	v. 做事過頭（to go to excess）	mald2_uk_overreach_3.mp3
+palliate	v. 減輕（痛苦）（to reduce; abate）；掩飾（罪行）（to extenuate）	mald2_uk_palliate_1.mp3
+parallelism	n. 平行，類似（the state or quality of being parallel）	mald2_uk_parallelism_1.mp3
+parch	v. 烘烤（to toast）；烤焦（to become scorched）	mald2_uk_parch_1.mp3
+particularize	v. 詳述，列舉（to give the details of sth. one by one）	mald2_uk_particularize_1.mp3
+pellucid	adj. 清晰的，清澈的（transparent; clear）	mald2_uk_pellucid_1.mp3
+periphrastic	adj. 迂迴的，冗贅的（of, relating to, or characterized by periphrasis）	mald2_uk_periphrastic_1.mp3
+perjure	v. 使作偽證，發假誓（to tell a lie under oath）	mald2_uk_perjure_1.mp3
+perquisite	n. 額外收入，津貼（a payment or profit received in addition to a regular wage or salary）；小費（a tip）	mald2_uk_perquisite_1.mp3
+pestilential	adj. 引起瘟疫的（causing or tending to cause pestilence），致命的；〈口〉極討厭的	mald2_uk_pestilential_1.mp3
+pettish	adj. 易怒的，鬧情緒的（fretful; peevish）	mald2_uk_pettish_1.mp3
+philosophic	adj. 哲學（家）的（of or relating to philosophers or philosophy）	mald2_uk_philosophic_1.mp3
+plainspoken	adj. 直言不諱的	mald2_uk_plainspoken_1.mp3
+plangent	adj. 轟鳴的；淒涼的（having a plaintive quality）	mald2_uk_plangent_1.mp3
+plenitude	n. 完全（completeness）；大量（a great sufficiency）	mald2_uk_plenitude_1.mp3
+pleonastic	adj. 冗言的（using more words than necessary）	mald2_uk_pleonastic_1.mp3
+postoperative	adj. 手術後的（following a surgical operation）	mald2_uk_postoperative_1.mp3
+postwar	adj. 戰後的（occurring or existing after a war）	mald2_uk_postwar_1.mp3
+preeminent	adj. 出類拔萃的，傑出的（supreme; outstanding）	mald2_uk_preeminent_1.mp3
+preempt	v. 以優先權獲得（to gain possession of by prior right or opportunity, especially to settle on (public land) so as to obtain the right to buy before others）；取代（to replace with）	mald2_uk_preempt_1.mp3
+prognosticate	v. 預言，預示（to foretell from signs or symptoms; predict）	mald2_uk_prognosticate_1.mp3
+promptness	n. 敏捷，迅速；機敏	mald2_uk_promptness_1.mp3
+pullet	n. 小母雞（a young hen during its first year of laying eggs）	mald2_uk_pullet_1.mp3
+purported	adj. 傳言的，據稱的（reputed; alleged）	mald2_uk_purported_1.mp3
+rambunctious	adj. 騷亂的，喧鬧的（marked by uncontrollable exuberance）	mald2_uk_rambunctious_1.mp3
+reaffirmation	n. 再肯定（renewed affirmation）	mald2_uk_reaffirmation_1.mp3
+recurrent	adj. 循環的（running or turning back in a direction opposite to a former course）；一再發生的（returning or happening time after time）	mald2_uk_recurrent_1.mp3
+refractory	adj. 倔強的，難管理的（stubborn; unmanageable）；（病）難治的（resistant to treatment or cure）	mald2_uk_refractory_1.mp3
+rendition	n. 表演，演唱（the act or result of rendering）	mald2_uk_rendition_1.mp3
+repetitious	adj. 重複的（characterized or marked by repetition）	mald2_uk_repetitious_1.mp3
+restored	adj. 恢復的（returned to an original or regular condition）	mald2_uk_restored_1.mp3
+ruckus	n. 喧鬧，騷動（row; disturbance）	mald2_uk_ruckus_1.mp3
+sate	v. 使心滿意足，使厭膩（to gratify completely; glut）	mald2_uk_sate_1.mp3
+scads	n. 許多，鉅額（large numbers or amounts）	mald2_uk_scads_1.mp3
+schematize	v. 扼要表示（to express or depict in an outline）	mald2_uk_schematize_1.mp3
+scraggly	adj. 凹凸不平的（irregular in form or growth）；散亂的（unkempt）	mald2_uk_scraggly_1.mp3
+seclude	v. 使隔離，使孤立（to isolate）	mald2_uk_seclude_1.mp3
+self-analysis	n. 自我分析	mald2_uk_self_analysis_1.mp3
+sequestrate	v. 扣押，沒收（to place property in custody）	mald2_uk_sequestrate_1.mp3
+shortrange	adj. 近程的（relating to or fit for short distances）	mald2_uk_shortrange_1.mp3
+shortsighted	adj. 缺乏遠見的（lacking foresight）；近視的	mald2_uk_shortsighted_1.mp3
+splashy	adj. 容易濺開的；炫耀顯眼的（exhibiting ostentatious display）	mald2_uk_splashy_1.mp3
+submerged	adj. 在水中的，淹沒的（covered with water）	mald2_uk_submerged_1.mp3
+suborn	v. 收買，賄賂（to induce secretly to do an unlawful thing）	mald2_uk_suborn_1.mp3
+substratum	n. 基礎；地基（an underlying support; foundation）	mald2_uk_substratum_1.mp3
+summation	n. 總結，概要（a summary）；總數，合計（a total）	mald2_uk_summation_1.mp3
+sunder	v. 分裂，分離（to separate by violence or by intervening time or space）	mald2_uk_sunder_1.mp3
+suppliant	adj. 懇求的，哀求的（humbly imploring） n. 懇求者，哀求者（one who supplicates）	mald2_uk_suppliant_1.mp3
+synchronous	adj. 同時發生的（happening at precisely the same time）	mald2_uk_synchronous_1.mp3
+thousandfold	adj. 千倍的（a thousand times as much） adv. 千倍地	mald2_uk_thousandfold_1.mp3
+tightfisted	adj. 吝嗇的（stingy）	mald2_uk_tightfisted_1.mp3
+unadorned	adj. 未裝飾的，樸素的	mald2_uk_unadorned_1.mp3
+unalterable	adj. 不能改變的（not capable of being altered or changed）	mald2_uk_unalterable_1.mp3
+unbridgeable	adj. 不能架橋的，不能逾越的（impossible to span）	mald2_uk_unbridgeable_1.mp3
+uncontroversial	adj. 未引起爭論的（not causing, or not likely to cause, any disagreement）	mald2_uk_uncontroversial_1.mp3
+unconvinced	adj. 不信服的（not certain that sth. is true or right）	mald2_uk_unconvinced_1.mp3
+undemanding	adj. 不嚴格的（not demanding）；要求不高的（requiring little if any patience or effort or skill）	mald2_uk_undemanding_1.mp3
+underrepresented	adj. 未被充分代表的（inadequately represented）	mald2_uk_underrepresented_1.mp3
+underutilized	adj. 未充分利用的	mald2_uk_underutilized_1.mp3
+undiscovered	adj. 未被發現的（not noticed or known about）	mald2_uk_undiscovered_1.mp3
+unencumbered	adj. 無阻礙的（free of encumbrance）	mald2_uk_unencumbered_1.mp3
+unfeigned	adj. 真實的，真誠的（genuine）	mald2_uk_unfeigned_1.mp3
+unheralded	adj. 未預先通知的，未預先警告過的（not previously mentioned; happening without any warning）	mald2_uk_unheralded_1.mp3
+unprepossessing	adj. 不吸引人的（unattractive）	mald2_uk_unprepossessing_1.mp3
+unproven	adj. 未經證實的（not proved or tested）	mald2_uk_unproven_1.mp3
+unrecognized	adj. 未被承認的，未被認出的	mald2_uk_unrecognized_1.mp3
+unrestricted	adj. 無限制的，自由的（not limited by anyone or anything）	mald2_uk_unrestricted_1.mp3
+unsubstantiated	adj. 未經證實的，無事實根據的（not proved to be true by evidence）	mald2_uk_unsubstantiated_1.mp3
+untainted	adj. 無污點的（not damaged or spoiled）	mald2_uk_untainted_1.mp3
+untrustworthy	adj. 不能信賴的，靠不住的（not capable of being trusted or depended on）	mald2_uk_untrustworthy_1.mp3
+unworldly	adj. 非世俗的（not swayed by mundane considerations）；精神上的（spiritual）	mald2_uk_unworldly_1.mp3
+vainglorious	adj. 自負的（marked by vainglory; boastful）	mald2_uk_vainglorious_1.mp3
+velvety	adj. 天鵝絨般柔軟光滑的（having the character of velvet as in being soft, smooth）；醇和的，可口的（smooth to the taste）	mald2_uk_velvety_1.mp3
+vestment	n. 官服，禮服（an outer garment, especially a robe of ceremony or office）；法衣，祭袍（any of the ritual robes worn by members of the clergy, acolytes, or other assistants at services or rites）	mald2_uk_vestment_1.mp3
+voracity	n. 貪食；貪婪（the quality or state of being voracious）	mald2_uk_voracity_1.mp3
+votary	n. 崇拜者，熱心支持者（a devoted admirer）	mald2_uk_votary_1.mp3
+waspish	adj. 易怒的（irascible; petulant; snappish）；尖刻的	mald2_uk_waspish_1.mp3
+wrongheaded	adj. 堅持錯誤的，固執的（stubborn in adherence to wrong opinions or principles）	mald2_uk_wrongheaded_1.mp3
+
+== 未覆蓋 ==
+abash	v. 使羞愧，使尷尬（to make embarrassed）
+abnegate	v. 否認，放棄（to deny; renounce）
+abstentious	adj. 有節制的（temperate）
+acarpous	adj. 不結果實的（impotent to bear fruit）
+accrete	v. 逐漸增長（to grow or increase by means of gradual additions）；添加生長；連生（to grow together）
+acedia	n. 無精打采的樣子（apathy; boredom）；懶惰
+adulate	v. 諂媚，奉承（to praise or flatter excessively）
+aggrandize	v. 增大，擴張（to make greater or more powerful）；吹捧（to praise highly）
+aggrieve	v. 使受委屈，使痛苦（to give pain or trouble to）
+aleatory	adj. 僥倖的，偶然的（depending on an uncertain event or contingency as to both profit and loss）
+animadvert	v. 苛責，非難（to remark or comment critically, usually with strong disapproval or censure）
+antecedence	n. 居先，先行（priority; precedence）
+antic	adj. 古怪的（fantastic and queer）
+anticipatory	adj. 預想的，預期的（characterized by anticipation）
+approaching	adj. 接近的，逼近的
+archetypally	adv. 典型地
+aspersion	n. 誹謗，中傷（disparaging remark; slander）
+assoil	v. 赦免，釋放，補償（to absolve; acquit; expiate）
+assuredness	n. 確定；自信
+attune	v. 使調和（to put into correct and harmonious tune）
+avocation	n. 副業；嗜好（hobby; distraction）
+avocational	adj. 副業的，嗜好的（of or relating to an avocation）
+backset	n. 倒退，逆流（reversal; countercurrent）
+befoul	v. 弄髒，誹謗（to make foul as with dirt or waste）
+befuddle	v. 使迷惑不解；使酒醉昏迷（to confuse; muddle or stupefy with or as if with drink）
+beleaguer	v. 圍攻（to besiege by encircling）；騷擾（to harass）
+bemuse	v. 使昏頭昏腦，使迷惑（to puzzle, distract, absorb）
+bereave	v. 奪去，喪親（to deprive; dispossess）
+besot	v. 使沉醉，使糊塗（to make dull or stupid, especially to muddle with drunkness）
+bibliomania	n. 藏書癖（extreme preoccupation with collecting books）
+blandishment	n. 奉承，討好
+blear	v. 使模糊（to dim, blur） adj. 模糊的（obscure to the view or imagination）
+blighted	adj. 枯萎的（withered）
+boding	n. 凶兆，前兆，預感（an omen, prediction, etc., especially of coming evil）
+bootless	adj. 無益處的（without advantage or benefit）；無用的（useless）
+boreal	adj. 北方的，北風的（of, relating to, or located in northern regions）
+brattish	adj. （指小孩）討厭的，被寵壞的，無禮的（(of a child) ill-mannered; annoying）
+bristling	adj. 豎立的（be stiffly erect）
+calumniate	v. 誹謗，中傷（to make maliciously false statements）
+canorous	adj. 音調優美的，有旋律的（pleasant sounding; melodious）
+catalyze	v. 促使（to bring about）；激勵（to inspire）
+caudal	adj. 尾部的，像尾部的（of, relating to, or being a tail; situated in or directed toward the hind part of the body）
+cephalic	adj. 頭的，頭部的（of the head or skull）
+cession	n. 割讓，轉讓
+chaffing	adj. 玩笑的，嘲弄的（of, relating to jest, banter）
+churl	n. 粗鄙之人（a surly, ill-bred person）
+ciliate	adj. 有纖毛的（having minute hairs）；有睫毛的
+coagulation	n. 凝結
+comestible	n. 物，食品（sth. fit to be eaten） adj. 可吃的（edible）
+cometary	adj. 彗星的，彗星似的
+commingle	v. 摻和，混合（to mix up）
+complacence	n. 自滿（satisfaction with oneself）
+concinnity	n. 優美；雅緻；協調（harmony or elegance of design）
+condign	adj. 罪有應得的（(of punishment) severe and well deserved）；適宜的
+condole	v. 同情，哀悼（to express sympathy; commiserate）
+congruity	n. 一致性，適合性（the quality or state of being congruent or congruous）；共同點（a point of agreement）
+congruous	adj. 一致的，符合的（being in agreement, harmony, or correspondence）；［數］全等的
+consonance	n. 一致，調和（harmony or agreement among components）；和音
+controvert	v. 反駁，駁斥（to argue or reason against; contradict; disprove）
+contumacious	adj. 違抗的，不服從的（unreasonably disobedient, esp. to an order made by a court）
+contumacy	n. 抗命，不服從（insubordination; disobedience）
+contumely	n. 無禮，傲慢（haughty and contemptuous rudeness）
+conventionalize	v. 使按慣例，使習俗化（to make conventional）
+convoke	v. 召集；召開（會議）（to summon to assemble; convene）
+correlated	adj. 有相互關係的（mutually or reciprocally related）
+corrugate	v. 起波紋，起皺紋（to shape into folds or parallel and alternating ridges and grooves）
+coruscate	v. 閃亮（to give off flashes of light; glitter; sparkle）
+cosmopolitanism	n. 世界性，世界主義
+cozen	v. 欺騙，哄騙（to coax; deceive）
+crudity	n. 粗糙，生硬（the quality or state of being crude）
+cumber	v. 拖累，妨礙（to hinder by obstruction or interference; hamper）
+damped	adj. 潮濕的；減震的，壓低（聲音）的
+debark	v. 下船，下飛機，下車；卸載（客、貨）
+debauch	v. 使墮落，敗壞（to lead away from virtue or excellence） n. 墮落（an act or occasion of debauchery）
+demagnetize	v. 消磁，使退磁（to deprive of magnetic properties）
+denunciate	v. 公開指責，公然抨擊，譴責（to pronounce especially publicly to be blameworthy or evil）
+deracinate	v. 根除，滅絕（to pull up by the roots; eradicate）
+descry	v. 看見，察覺（to catch sight of; discern）
+desiccate	v. （使）完全乾涸，脱水（to dry completely; preserve by drying）
+desideratum	n. 必需品（sth. needed and wanted）
+destine	v. 命運註定，預定（to decree beforehand）
+destructible	adj. 可破壞的（capable of being destroyed）
+desuetude	n. 廢止，不用（discontinuance from use or exercise）
+detraction	n. 貶低，誹謗（unfair criticism）
+dicker	v. 討價還價（to bargain）
+digressive	adj. 離題的，枝節的（characterized by digressions）
+dilapidate	v. （使）荒廢，（使）毀壞（to bring into a condition of decay or partial ruin）
+disaffect	v. 使不滿；使疏遠（to make disloyal）
+discombobulated	adj. 擾亂的，打亂的（in a state of confusion）
+discomfited	adj. 困惑的，尷尬的（frustrated; embarrassed）
+disenchant	v. 使不抱幻想，使清醒（to free from illusion）
+disfranchise	v. 剝奪…的權利，剝奪…公民權（to deprive of the rights of citizenship）
+disgruntle	v. 使不高興（to make discontented）
+dishevel	v. 使蓬亂，使（頭髮）凌亂（to throw into disorder or disarray）
+disjunctive	adj. 分離的；轉折的，反意的（showing opposition or contrast between two ideas）
+disorganize	v. 擾亂，使混亂（to destroy or interrupt the orderly structure or function of）
+disproof	n. 反證，反駁（the act of refuting or disproving）
+distain	v. 貶損，傷害名譽（to dispraise; derogate）
+distent	adj. 膨脹的（swollen）；擴張的（expanded）
+distrait	adj. 心不在焉的（absent-minded; distracted）
+divagate	v. 離題（to stray from the subject）；漂泊（to wander about）
+domineer	v. 壓制（to exercise arbitrary or overbearing control; tyrannize over）
+dormancy	n. 休眠狀態（state of being temporarily inactive）
+draggy	adj. 拖拉的，極為討厭的
+drollery	n. 滑稽（quaint or wry humor）
+drub	v. 重擊（to beat severely）；打敗（to defeat decisively）
+dumbbell-like	adj. 啞鈴狀的
+dumbfound	v. 使…驚訝（to astonish）
+earthshaking	adj. 極其重大或重要的（very important）
+effulgent	adj. 燦爛的，光輝的（of great brightness）
+egoistic(al)	adj. 自我中心的，自私自利的（of or relating to the self）
+eidetic	adj. （印象）異常清晰的；極為逼真的（marked by or involving extraordinary accuracy）
+elate	v. 使高興，使得意（to fill with joy or pride）
+emaciate	v. 使瘦弱（to become very thin）
+embryological	adj. 胚胎學的
+empyreal	adj. 天空的（celestial; sublime）
+encipher	v. 譯成密碼（to convert a message into cipher）
+encomiast	n. 讚美者（a person who delivers or writes an encomium; a eulogist）
+endue	v. 賦予，授予（to provide; endow）
+enfetter	v. 給…上腳鐐（to bind in fetters）；束縛，使受制於（to enchain）
+enflame	v. 燃燒
+enrapture	v. 使狂喜，使高興（to fill with delight; elate）
+environ	v. 包圍，圍繞（to encircle, surround）
+epideictic	adj. 誇耀的（pretentious）
+equivocator	n. 説模稜話的人，説話支吾的人
+estrange	v. 使疏遠（to alienate the affections）
+ethics	n. 倫理學（science that deals with morals）；道德規範（moral correctness）
+excitability	n. 易興奮，易激動（quality of being excitable）
+excogitate	v. 認真想出（to think out carefully and fully）
+excruciate	v. 施酷刑；折磨（to subject to intense mental distress）
+excursive	adj. 離題的（digressive）
+execrate	v. 憎惡（to loathe; detest; abhor）；咒罵（to call down evil upon; curse）
+exhaustiveness	n. 全面，詳盡，徹底
+expository	adj. 説明的（explanatory; serving to explain）
+extricable	adj. 可解救的，能脱險的（capable of being freed from difficulty）
+factorable	adj. 能分解成因子的（capable of being factored）
+faddish	adj. 流行一時的，時尚的（having the nature of a fad）
+famish	v. 使飢餓（to make or be very hungry）
+fatidic	adj. 預言的（of or relating to prophecy）
+fatuity	n. 愚蠢，愚昧（stupidity; foolishness）
+feigned	adj. 假裝的（pretended; simulated）；假的；不真誠的
+felicitate	v. 祝賀，慶祝（to wish happiness to; congratulate）
+ferromagnetic	adj. 鐵磁的，鐵磁體的
+finable	adj. 應罰款的（liable to a fine）
+flaggy	adj. 枯萎的；鬆軟無力的（lacking vigor or force）
+flaunty	adj. 炫耀的，虛華的（ostentatious）
+flossy	adj. 華麗的，時髦的（stylish or glamorous especially at first impression）；絲棉般的，柔軟的（of, relating to, or having the characteristics of floss）
+forebode	v. 預感，預示（災禍等），預兆（to foretell; predict）
+formalized	adj. 形式化的，正式的
+frowzy	adj. 不整潔的，污穢的（dirty and untidy; slovenly; unkempt）
+fructify	v. （使）結果實（to bear fruit）；（使）成功（to cause to be or become fruitful）
+furbish	v. 磨光，刷新（to brighten by rubbing or scouring; polish）
+garble	v. 曲解，竄改（to alter or distort as to create a wrong impression or change the meaning）
+garrulity	n. 嘮叨，饒舌（the quality or state of being garrulous）
+geomagnetic	adj. 地磁的（of or relating to terrestrial magnetism）
+gerontocracy	n. 老人統治的政府（a government in which a group of old men dominates）
+goldbrick	v. 逃避責任，偷懶（to shirk one&#x27;s assigned duties or responsibility）
+gracile	adj. 細弱的，纖細優美的（slender, graceful）
+gustation	n. 品嚐（the act of tasting）；味覺（the sensation of tasting）
+guttle	v. 狼吞虎嚥（to eat quickly and greedily）
+habituate	v. 使習慣於（to make used to; accustom）
+hallow	v. 把…視為神聖（to make or set apart as holy）；尊敬，敬畏（to respect or honor greatly; revere）
+hardihood	n. 大膽，剛毅（boldness; fortitude）；厚顏
+hieroglyphic	n. 象形文字（a system of writing which uses hieroglyphs）
+hortative	adj. 勸告的；激勵的（serving to encourage or urge）
+huffish	adj. 不高興的，發怒的（peevish; sulky）；傲慢的
+iconographic	adj. 肖像的，肖像學的；圖解的（representing something by pictures or diagrams）
+idiosyncracy	n. 特質
+idolatrize	v. 奉為偶像，盲目崇拜（to admire intensely and often blindly）
+ill-paying	adj. 工資低廉的
+ill-repute	n. 名譽敗壞（bad fame）
+illuminati	n. 先覺者，先知（persons who are or who claim to be unusually enlightened）
+illusive	adj. 迷惑人的，迷幻的（deceiving and unreal）
+impend	v. 威脅（to menace）；即將發生（to be about to occur）
+impermeability	n. 不滲透性
+impracticability	n. 無法實施；不能實施的事項
+improvised	adj. 臨時準備的，即席而作的（making offhand）
+impuissance	n. 無力，虛弱（weakness）
+inappreciable	adj. 微不足道的（too small to be perceived）
+incertitude	n. 不確定（性）（uncertainty）；無把握，懷疑
+incogitant	adj. 未經思考的，考慮不周的（thoughtless; inconsiderate）
+incommensurate	adj. 不成比例的，不相稱的（not proportionate; not adequate）
+incongruent	adj. 不協調的，不和諧的，不合適的（not congruent）
+incorrigibility	n. 無可救藥（incapability of being corrected or amended）
+inculpate	v. 控告；歸咎於（to incriminate）
+inducible	adj. 可誘導的（capable of being induced）
+inebriate	v. 使…醉（to intoxicate） n. 酒鬼，酒徒（a drunkard）
+inelasticity	n. 無彈性，無伸縮性
+inexpiable	adj. 不能補償的（incapable of being expiated or atoned）
+infatuate	v. 使迷戀（to inspire with a foolish or extravagant love or admiration）；使糊塗（to cause to deprive of sound judgment）
+inferable	adj. 能推理的，能推論的
+ingeniousness	n. 獨創性（ingenuity）
+ingrain	adj. 根深蒂固的（thoroughly worked in） n. 本質（innate quality or character）
+inspissate	v. （使）濃縮（to make thick or thicker）
+instate	v. 任命（to put sb. in office）
+intangibility	n. 無形
+interconnected	adj. 相互連接的（mutually joined or related）
+interlard	v. 使混雜，混入（to vary by intermixture; intersperse）
+intoxicate	v. （使）沉醉，（使）欣喜若狂（to excite sb. greatly）；（使）喝醉（to cause sb. to lose self-control as a result of the effects of the alcohol）
+intruding	adj. 入侵的，入侵性的（intrusive）
+intrusively	adv. 入侵地
+irradicable	adj. 無法根除的，根深蒂固的（impossible to eradicate）
+jesting	adj. 滑稽的（ridiculous）；愛開玩笑的
+jolting	adj. 令人震驚的
+jounce	v. 顛簸地移動（to move in an up-and-down manner）
+judiciousness	n. 明智
+labile	adj. 易變化的，不穩定的（open to change; unstable）
+leisureliness	n. 悠然，從容
+licit	adj. 合法的（permitted by law; lawful; legal）
+ligneous	adj. 木質的，木頭般的（having the nature of wood; woody）
+limn	v. 描寫（to describe）；畫（to paint or draw）
+limnetic	adj. 淡水的，湖泊的（of, relating to, or inhabiting the open water of a body of freshwater）
+lingual	adj. 舌的（of the tongue）；語言的（of language）
+lowbred	adj. 粗野的，粗俗的（ill-mannered; vulgar; crude）
+lucubrate	v. 刻苦攻讀，埋頭苦幹，專心著作（to work, study, or write laboriously）
+lumen	n. 流明（光通量單位）
+machination	n. 陰謀（an artful or secret plot or scheme）
+magniloquent	adj. 誇張的（characterized by a high-flown often bombastic style or manner）
+malediction	n. 詛咒（curse; execration）
+maleficent	adj. 有害的；作惡的，犯罪的（doing evil）
+maraud	v. 搶劫，掠奪（to rove in search of plunder; pillage）
+maunder	v. 胡扯（to speak indistinctly or disconnectedly）；遊蕩（to wander slowly and idly）
+medicate	v. 用藥物醫治（to treat with medicine）；加藥於
+merited	adj. 該得的，理所當然的（deserving, worthy of）
+mesmerism	n. 催眠術，催眠引導法（hypnotic induction held to involve animal magnetism）
+miff	n. 小爭吵（a trivial quarrel）
+minutes	n. 會議記錄
+minutia	n. 細枝末節，瑣事（small or trifling matters）
+misperceive	v. 誤解（to misunderstand）
+mitigant	adj. 緩和的，減輕的 n. 緩和物
+mnemonics	n. 記憶法，記憶術（the technique of developing the memory）
+muniments	n. 契據
+munition	n. 軍火，軍需品（weapons and ammunition）
+natal	adj. 出生的，誕生時的（of, relating to, or present at birth）
+naysay	v. 拒絕，否認，反對（to say no）
+naysayer	n. 懷疑者，否定者（one who denies or is skeptical or cynical about sth.）
+necessitous	adj. 貧困的（needy; indigent）；緊迫的（urgent）
+nethermost	adj. 最低的，最下面的（lowest; the farthest down）
+nonplus	v. 使困惑（to put in perplexity, bewilder） n. 迷惑，困惑
+nonporous	adj. 無孔的；不滲透的
+nonradioactive	adj. 非放射性的
+nonthreatening	adj. 不構成威脅的
+nonviable	adj. 無法生存的，不能成活的（not able to live）
+notate	v. 以符號表示（to put into notation）
+nucleate	v. （使）成核（to form a nucleus） adj. 有核的
+obliqueness	n. 斜度；傾斜
+obsequiousness	n. 諂媚（abject submissiveness）
+obstinateness	n. 固執，頑固
+occlude	v. 使閉塞（to prevent the passage of）
+osseous	adj. 骨的，多骨的（composed of bone; bony）
+other-directed	adj. 受人支配的（directed in thought and action by others）
+overbear	v. 壓倒（to bring down by superior weight or physical force）；鎮壓（to domineer over）；比…更重要，超過（to surpass in importance or cogency）
+overinflated	adj. 過度充氣的（filled with too much air）
+overtire	v. 使過度疲勞
+pavid	adj. 害怕的，膽小的（exhibiting or experiencing fear; timid）
+peculate	v. 挪用（公款）（to embezzle）
+peery	adj. 窺視的；好奇的（curious）；懷疑的（suspicious）
+perfervid	adj. 過於熱心的（excessively fervent）
+persiflage	n. 挖苦，嘲弄（frivolous bantering talk; raillery）
+perspicuous	adj. 明晰的，明瞭的（clearly expressed or presented）
+pervious	adj. 可滲透的，可通過的（permeable; accessible）
+pestilent	adj. 致命的（deadly）；有害的（pernicious）
+pharisaic	adj. 偽善的，偽裝虔誠的
+picayunish	adj. 微不足道的，不值錢的（of little value）
+piousness	n. 虔誠
+piscatorial	adj. 捕魚的，漁業的（dependent on fishing; piscatory）
+pithiness	n. 簡潔（state of being precisely brief）
+plentitude	n. 充分（the quality or state of being full）
+ponderable	adj. 可估量的（able to be assessed; appreciable）
+pontifical	adj. 教皇的（of or relating to a pontiff or pontifex）；自負的（pretentious; pompous）；武斷的（dogmatic）
+poohed	adj. 疲倦的（worn; tired）
+postiche	adj. 偽造的，假的（false; sham） n. 偽造品（sth. false; a sham）；假髮（a small hairpiece; a toupee）
+potable	adj. 適於飲用的（suitable for drinking）
+potation	n. 喝，飲（the act of drinking or inhaling）；飲料，酒（an alcoholic drink）
+potentiate	v. 加強，強化（to make effective or active）
+pother	n. 喧擾，騷動（confused or fidgety flurry or activity） v. 煩惱（to put into a pother）
+predestine	v. 預先註定（to destine or determine beforehand）
+premeditate	v. 預謀，預先考慮或安排（to plan, arrange, or plot in advance）
+prevision	n. 預知，先見（foresight; prescience）
+procrustean	adj. 強求一致的（marked by arbitrary often ruthless disregard of individual differences or special circumstances）
+promissory	adj. 允諾的，約定的（containing or conveying a promise or assurance）
+prorogue	v. 休會（to suspend a legislative session）；延期（to postpone; adjourn）
+puffery	n. 極力稱讚，誇大廣告，吹捧（exaggerated commendation especially for promotional purposes）
+puissant	adj. 強大的，有權力的（having strength; powerful）
+pullulate	v. 繁殖（to breed or produce freely）；充滿（to teem）
+purified	adj. 純淨的
+purposiveness	n. 目的性
+quiescence	n. 靜止，沉寂（the quality or state of being quiescent）
+quondam	adj. 原來的，以前的（former）
+raff	n. 大量，許多（a great deal, many）
+rarefaction	n. 稀薄（the quality or state of being rarefied）
+rarefy	v. 使稀少，使稀薄（to make rare, thin, porous, or less dense）
+ratiocination	n. 推理，推論（reasoning）
+ravel	v. 使糾纏，糾結（to become twisted and knotted）；拆開，拆散（to unravel）
+rebarbative	adj. 令人討厭的，冒犯人的（repellent; irritating）
+rebroadcast	v. 重播（to broadcast again）
+recombine	v. 重組，再結合（to combine again or anew）
+recompose	v. 重寫（to compose again）；重新安排
+recusant	n. 拒絕服從的人（one who refuses to accept or obey established authority）
+reexamination	n. 重考；複試；再檢查
+referent	n. 指示對象（one that refers or is referred to）
+refulgent	adj. 輝煌的，燦爛的（shining radiantly）
+renascent	adj. 再生的，復活的，新生的（reborn after being forgotten）
+renunciate	v. 放棄（to give up; abandon）
+reparable	adj. 能補救的，可挽回的（capable of being repaired）
+reportorial	adj. 記者的；報道的
+reprehend	v. 譴責，責難（to voice disapproval of; censure）
+rescission	n. 撤銷，廢除（an act of rescinding）
+resurge	v. 復活（to rise again into life）
+rive	v. 撕開，分裂（to rend or tear apart）
+satiated	adj. 厭倦的，生膩的（tired of）；充分滿足的（fully satisfied）
+scission	n. 切斷，分離，斷開（an action or process of cutting, dividing, or splitting）
+scrutable	adj. 可以瞭解的，可解讀的（capable of being deciphered）
+scutter	v. 疾走，急跑（to move in or as if in a brisk pace）
+sedulity	n. 勤奮，勤勉（diligence）
+sedulous	adj. 聚精會神的；勤勉的（diligent in application or pursuit）
+self-adulation	n. 自我吹捧（the act of praising or flattering excessively by oneself）
+self-assertion	n. 自作主張（the act of asserting oneself or one&#x27;s own rights, claims, or opinions）
+self-procession	n. 自行列隊
+self-realization	n. 自我實現，自我完成（fulfillment by oneself of the possibilities of one&#x27;s character or personality）
+semimolten	adj. 半熔化的
+sequacious	adj. 盲從的（intellectually servile）
+sere	adj. 乾枯的，枯萎的（being dried and withered）
+simonize	v. 給…打蠟，把…擦亮（to polish with or as if with wax）
+sleight	n. 巧妙手法；詭計；靈巧（dexterity; skill）
+slipperiness	n. 滑溜；防滑性
+sloven	n. 不修邊幅的人（one habitually negligent of neatness or cleanliness）
+slue	v. （使）旋轉（to rotate; slew）
+smirch	v. 弄髒（to make dirty, stained, or discolored） n. 污點
+somatic	adj. 肉體的，軀體的（relating to the body）
+sophomoric	adj. 一知半解的（conceited and overconfident of knowledge but poorly informed and immature）
+sparring	n. 拳擊，爭鬥
+specified	adj. 特定的
+spined	adj. 有背骨的，有脊柱的
+spiritedness	n. 有精神，活潑
+spoliation	n. 搶劫，掠奪（the act of plundering）
+sportive	adj. 嬉戲的，歡鬧的（playful）
+stained	adj. 污染的，玷污的
+straiten	v. 使為難（to subject to distress, privation, or deficiency）；使變窄（to make strait or narrow）
+striate	v. 加條紋（to mark with striation）
+stylize	v. 使…風格化（to conform to a conventional style）
+subcelestial	adj. 世俗的，塵世的（worldly）
+subreption	n. 隱瞞真相，歪曲事實（a deliberate misrepresentation）
+subtractive	adj. 減法的（tending to subtract）；負的
+subvention	n. 補助金，津貼（the provision of assistance or financial support）
+sun-bronzed	adj. 被太陽曬成古銅色的
+superannuate	v. 使退休領養老金（to retire and pension because of age or infirmity）
+supererogatory	adj. 職責以外的；多餘的
+supplicate	v. 懇求，祈求（to make a humble entreaty）
+syncretize	v. （使）結合，（使）融和（to attempt to unite and harmonize especially without critical examination or logical unity）
+synergic	adj. 協同作用的（of combined action or cooperation）
+synoptic	adj. 摘要的（affording a general view of a whole）
+taking	adj. 楚楚動人的，迷人的（gaining the liking of）
+tatter	n. 碎片（a part torn and left hanging） v. 撕碎（to make ragged）
+threadlike	adj. 線狀的
+throe	n. 劇痛（anguish; pang）；[pl.] 掙扎（a hard or painful struggle）
+tined	adj. 尖端的（of a slender pointed projecting part）
+toed	adj. 有趾的（having a toe or toes）
+transitoriness	n. 暫時，短暫（the state of being not persistent）
+trumpery	adj. 中看不中用的（showy but of little value）
+tumid	adj. 腫起的，腫脹的（swollen; enlarged）
+ulcerate	v. 潰爛（to affect with an ulcer）
+ultramundane	adj. 世界之外的；超俗的
+unaesthetic	adj. 無美感的（deficient in tastefulness or beauty）
+unarticulated	adj. 表達不清的（not articulated）
+unbosom	v. 傾訴，吐露（to disclose the thoughts or feelings of）
+undecipherable	adj. 難破譯的（not easily deciphered）
+undemonstrable	adj. 無法證明的，難以證明的
+underbid	v. 叫價低於；要價過低（to bid too low）
+underestimated	adj. 低估的
+undergird	v. 從底層支持，加固…的底部（to strengthen from the bottom）
+underhanded	adj. 秘密的，狡詐的（marked by secrecy and deception; sly）
+undeserving	adj. 不值得的（not deserving to have or receive sth.）
+undifferentiated	adj. 無差別的，一致的
+undirected	adj. 未受指導的（not planned or guided）
+undistorted	adj. 未失真的
+unecological	adj. 非生態的
+unedited	adj. 未編輯的（not yet edited）
+unfertilized	adj. 未施肥的；未受精的
+ungrudging	adj. 慷慨的；情願的（being without envy or reluctance）
+unidimensional	adj. 一維的（one-dimensional）
+unimpassioned	adj. 沒有激情的（without passion or zeal）
+univocal	adj. 單一意思的（having only one meaning）
+unliterary	adj. 不矯揉造作的，不咬文嚼字的
+unnoteworthy	adj. 不顯著的，不值得注意的
+unobstructed	adj. 沒有阻礙的（free from obstructions）
+unregenerate	adj. 不悔改的（making no attempt to change one&#x27;s bad practices）
+unscented	adj. 無氣味的（without scent）
+unscrupulousness	n. 狂妄，不擇手段
+unspotted	adj. 清白的，無污點的（without spot; flawless）
+untalented	adj. 沒有天賦的（without a natural ability to do sth. well）
+untamed	adj. 未馴服的（not controlled by anyone）
+untarnished	adj. 失去光澤的（unblemished）
+untasted	adj. 未嘗過的，未體驗過的
+unthreatening	adj. 不危險的
+vagary	n. 奇想，異想天開（an erratic, unpredictable, or extravagant manifestation）
+vainglory	n. 自負（excessive or ostentatious pride especially in one&#x27;s achievements）；虛榮（vanity）
+valorous	adj. 勇敢的（brave）
+vantage	n. 優勢，有利地位（superiority in a contest）
+vaporous	adj. 空想的（unsubstantial）；多蒸汽的
+variegate	v. 使多樣化，使色彩斑斕（to exhibit different colors, especially as irregular patches or streaks）
+vaunting	adj. 吹噓的，傲慢的
+veracious	adj. 誠實的，説真話的（truthful; honest）
+verboten	adj. 禁止的，嚴禁的（prohibited by dictate）
+verified	adj. 已查清的，已證實的
+verisimilar	adj. 好像真實的，逼真的（appearing to be true）；可能的（probable）
+versant	adj. 精通的（conversant） n. 山坡（the slope of a side of a mountain or mountain range）；斜坡（the general slope of a region）
+vicissitude	n. 變遷，興衰（natural change or mutation visible in nature or in human affairs）
+vicissitudinous	adj. 有變化的，變遷的（marked by or filled with vicissitudes）
+viscid	adj. 黏性的（thick and adhesive）
+vitalize	v. 賦予生命，使有生氣（to endow with life）
+vituperate	v. 謾罵，辱罵（to abuse or censure severely or abusively）
+warrantable	adj. 可保證的，可承認的（capable of being warranted）
+warranted	adj. 保證的；擔保的
+well-deserved	adj. 當之無愧的；罪有應得的
+wigwag	v. 搖動，搖擺，擺動（to move back and forth steadily or rhythmically）
+wile	n. 詭計（a beguiling or playful trick）
+wroth	adj. 暴怒的，非常憤怒的（intensely angry）
+zealotry	n. 狂熱（fanatical devotion）
+zesty	adj. 興致很高的，熱望的（having or characterized by keen enjoyment）
