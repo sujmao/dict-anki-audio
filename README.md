@@ -43,11 +43,11 @@ for key, body in md.items():
 - 詞頭跳轉：正文以 `@@@LINK=目標詞頭` 開頭時，該詞頭是別處詞條的別名，要沿連結解析到真實詞條。
 - 三本常用詞典的音頻引用格式：
 
-| 詞典 | 音頻引用 | 口音標記 |
-|------|----------|----------|
-| CALD3 劍橋高階 | `sound://*.spx`（Speex-in-Ogg） | `<b>UK</b>` / `<b>US</b>` |
-| Macmillan 麥克米倫 | `sound://zzz_uk_*.wav` / `sound://zzz_us_*.wav` | 文件名 `zzz_uk` / `zzz_us` |
-| AHD5 美國傳統 | `sound://*.wav`，重拼寫在 `class="rtseg"` | 美音為主 |
+| 詞典 | 音頻引用 | 口音標記 | 實際編碼 |
+|------|----------|----------|----------|
+| CALD3 劍橋高階 | `sound://*.spx`（Speex-in-Ogg） | `<b>UK</b>` / `<b>US</b>` | Speex 32kHz |
+| Macmillan 麥克米倫 | `sound://zzz_uk_*.wav` / `sound://zzz_us_*.wav` | 文件名 `zzz_uk` / `zzz_us` | **MP3-in-WAV** 22kHz mono |
+| AHD5 美國傳統 | `sound://*.wav`，重拼寫在 `class="rtseg"` | 美音為主 | WAV |
 
 ### 安全：不可信數據
 
@@ -178,6 +178,29 @@ ffmpeg -y -hide_banner -loglevel error \
 
 > 注意：`-c:a libspeex` 放在 `-i` **之後**會變成**輸出編碼器**，是錯的。
 
+### 6b. Macmillan：MP3-in-WAV → remux，不要二次編碼
+
+Macmillan 的 `.wav` 其實是 **MP3 流裹在 RIFF 容器裡**（22.05 kHz 單聲道，~24 kbps，約 1 秒）。源本身已是有損 MP3，因此**不要**再轉 AAC（有損→有損會劣化），直接**位元流複製** remux 成乾淨的 `.mp3`：
+
+```bash
+ffmpeg -y -hide_banner -loglevel error -i IN.wav -c:a copy -f mp3 OUT.mp3
+```
+
+- `.mdd` 裡鍵名 = `\` + `sound://` 引用（例如 `sound://zzz_uk_xxx.wav` → MDD 鍵 `\zzz_uk_xxx.wav`）。
+- 先 `ffprobe` 確認源的真實編碼再決定策略——「擴展名是 wav」不代表是 PCM。
+
+### 6c. 同形異義（homograph）消歧
+
+一個詞頭若有多個 UK 音頻，要分辨是**同一義項的多種可接受讀音**（任選即可，如 `mistral` 的英語/法語讀音）還是**不同義項的不同讀音**（必須按詞性選，如 `overreach` 名詞 OVER-reach vs 動詞 over-REACH）。Macmillan 用 `▪ I. / ▪ II.` 分隔義項，每個義項有各自的 POS 標籤：
+
+```python
+for p in re.split(r'▪', body):            # 每段 = 一個義項
+    uk = re.search(r'href="sound://(zzz_uk_[^"]+\.wav)"', p)
+    pos = re.search(r'<font color="#6020ae">\s*([a-zA-Z ]+?)\s*</font>', p)
+```
+
+用卡片的中文釋義裡的詞性（`v.`/`n.`/`adj.`）對齊義項 POS 即可選對。
+
 ---
 
 ## 7. 命名與欄位
@@ -220,9 +243,9 @@ ac('updateNoteFields', note={'id': nid, 'fields': {'cald3_uk': '[sound:cald3_uk_
 | 詞典 | 全量匹配（音頻） | 對 CALD3 缺漏的補充 |
 |------|------------------|---------------------|
 | CALD3 英音 | 5879 / 6492（剔除 32 同義詞摺疊後） | — |
-| Macmillan（英+美） | 5857 / 6492（90.2%） | **193 / 613**（31.5%） |
+| Macmillan 英音 | 5857 / 6492（90.2%） | **193 / 613**（31.5%） |
 
-剩餘 420 個單詞兩本都缺。
+兩本英音合計覆蓋 **6072 / 6492**，剩 **420** 個單詞（見 `未覆蓋詞彙表`）。
 
 **推薦策略**（分里程碑，勿一次全做）：
 
@@ -262,9 +285,11 @@ python -I set_audio_tags.py
 | `build_uk.py` | 詞頭 + 發音提取、摺疊匹配、一詞多音消歧（POS + IPA + 重音） |
 | `detect_synonym.py` | 同義詞摺疊檢測（主詞頭判定 → 剔除清單） |
 | `match_mald.py` | 覆蓋率統計（含拼寫變體歸一化），用於「去留」決策 |
+| `build_mald_uk.py` | Macmillan 英音補充（MP3-in-WAV remux + 義項 POS 消歧） |
 | `build_naming.py` | `{詞典}_{口音}_{單詞}_{第N個音頻}` 命名 |
 | `build_full_aac_mono.py` | `libspeex → AAC mono 64k`（正確解碼） |
 | `set_audio_tags.py` | AnkiConnect 寫 `[sound:...]` 欄位 |
+| `set_mald2_tags.py` | AnkiConnect 寫 Macmillan 欄位 |
 | `blank_synonyms.py` | 清空同義詞摺疊卡片的音頻欄位 |
 | `ac.py` | 最小 AnkiConnect 客戶端 |
 
